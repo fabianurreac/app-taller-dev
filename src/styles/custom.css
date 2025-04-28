@@ -1,0 +1,87 @@
+/* Estilos personalizados para el nuevo diseño del taller automotriz */
+
+/* Estilos para el Sidebar */
+.sidebar-container {
+    background-color: #F2F2F2;
+    border-right: 1px solid #E5E5E5;
+  }
+  
+  .sidebar-link {
+    color: #4D4D4D;
+    transition: all 0.2s ease;
+  }
+  
+  .sidebar-link:hover {
+    background-color: rgba(229, 57, 53, 0.1);
+    color: #C62828;
+  }
+  
+  .sidebar-link.active {
+    background-color: rgba(229, 57, 53, 0.15);
+    color: #C62828;
+  }
+  
+  .sidebar-icon {
+    color: #666666;
+  }
+  
+  .sidebar-link:hover .sidebar-icon,
+  .sidebar-link.active .sidebar-icon {
+    color: #C62828;
+  }
+  
+  /* Estilos para los botones */
+  .btn-primary {
+    background-color: #C62828;
+    border-color: #C62828;
+  }
+  
+  .btn-primary:hover {
+    background-color: #B71C1C;
+    border-color: #B71C1C;
+  }
+  
+  .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(198, 40, 40, 0.25);
+  }
+  
+  /* Estilos para enlaces */
+  .link-primary {
+    color: #C62828;
+  }
+  
+  .link-primary:hover {
+    color: #B71C1C;
+    text-decoration: underline;
+  }
+  
+  /* Estilos para el logo */
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo-img {
+    max-height: 3rem;
+    width: auto;
+  }
+  
+  /* Estilos para formularios */
+  .form-control:focus {
+    border-color: #E53935;
+    box-shadow: 0 0 0 0.2rem rgba(229, 57, 53, 0.25);
+  }
+  
+  .form-check-input:checked {
+    background-color: #C62828;
+    border-color: #C62828;
+  }
+  
+  /* Media queries para dispositivos móviles */
+  @media (max-width: 768px) {
+    .logo-img {
+      max-height: 2.5rem;
+    }
+  }
